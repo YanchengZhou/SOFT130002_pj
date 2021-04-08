@@ -1,0 +1,63 @@
+p{font-size: x-large; text-align:center}
+
+@font-face {
+    font-family: 'DelaGothicOne';
+    src:url('DelaGothicOne-Regular.ttf');
+}
+
+.title{font-family: DelaGothicOne;color:royalblue;font-weight: bold;font-size:xx-large}
+.ch{font-family:"Heiti SC";font-size:x-large}
+.subtitle{font-family: monospace;font-weight: bold;font-size:xxx-large}
+.text{font-family: monospace;font-size:large;color:gray}
+
+table{
+    border-collapse: separate;
+    border-spacing: 180px 10px;
+    text-align: center;
+}
+
+a{
+    color: #051efd;
+    text-decoration: none;
+}
+a:hover{color: #f70707;}
+
+.button1 {
+    background-color: #040d28;
+    border: none;
+    color: white;
+    padding: 15px 72px;
+    text-align: center;
+    font-size: 20px;
+}
+.button2 {
+    background-color: saddlebrown;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.button1:hover {
+    background-color: #a54040; /* Green */
+    color: white;
+}
+.button2:hover {
+    background-color: #a54040; /* Green */
+    color: white;
+}
+
+.image {
+    transition: all 1s;
+}
+
+.image:hover {
+    cursor: crosshair;
+    transform: scale(1.5);
+}
+
+.table1{
+    border-collapse: separate;
+    border-spacing: 180px 10px;
+    text-align: center;
+}

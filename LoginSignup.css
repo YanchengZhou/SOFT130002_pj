@@ -1,0 +1,37 @@
+<style>
+p{text-align:center;font-size:x-large}
+
+p{font-size:x-large; text-align:center}
+h1{text-align:center}
+
+a{
+    color: #051efd;
+    text-decoration: none;
+}
+a:hover{
+    color: #f70707;
+}
+
+.button {
+    background-color: saddlebrown;
+    border: none;
+    color: white;
+    /*padding: 15px 80px;*/
+    text-align: center;
+    font-size: 24px;
+}
+.button:hover {
+    background-color: #a54040; /* Green */
+    color: white;
+}
+
+@font-face {
+    font-family: 'TrainOne-Regular';
+    src:url('TrainOne-Regular.ttf');
+}
+
+.ch{font-family:"Heiti SC";font-size:x-large}
+.title{font-family: TrainOne-Regular;font-size:xxx-large;font-weight:bold;color:rebeccapurple}
+
+p{font-size:x-large; text-align:center}
+h1{text-align:center}

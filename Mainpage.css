@@ -1,0 +1,44 @@
+table{
+    border-collapse: separate;
+    border-spacing: 180px 10px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'DelaGothicOne';
+    src:url('DelaGothicOne-Regular.ttf');
+}
+
+
+span{text-align:left;font-size:x-large;cursor:pointer}
+
+a{
+    color: #051efd;
+    text-decoration: none;
+}
+a:hover{
+    color: #f70707;
+}
+/*a:active{*/
+/*    color: #f70707;*/
+/*}*/
+
+.div1 {
+    text-align: center;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    margin:auto;
+}
+.img1 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ch{font-family:"Heiti SC";font-size:x-large}
+.title{font-family: TrainOne-Regular;font-size:xxx-large;font-weight:bold;color:rebeccapurple}
+
+p1{font-family: sans-serif; font-weight: bold; text-align: center}
+p2{font-family: cursive; color: #622121; text-align: center}
