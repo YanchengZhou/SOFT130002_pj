@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="Displaypage.css">
+
+    <script>
+        function deleteLine(obj) {
+            let tr = obj.parentNode.parentNode;
+            let tab = tr.parentNode;
+            tab.removeChild(tr);
+        }
+
+    </script>
 </head>
 <body>
     <span style="height:50px">
@@ -43,7 +52,7 @@
 
     <br>
 
-    <table class="table1">
+    <table class="table1" id="myTable">
         <tr>
             <td>
                 <img  src="44.jpg" heigh="630" width=400>
@@ -62,11 +71,66 @@
 
                 <br>
                 <a href="Displaypage.html">
-                    <button class="button2"> 查看详情 </button>
+                    <input type="button" class="button2" value="查看详情" id="b11">
                 </a>
+                <br> <br>
+                <input type="button" class="button1" value="删除" onclick="deleteLine(this)" id="b12">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img  src="60.jpg" heigh="630" width=400>
+            </td>
+            <td style="text-align: left">
+                <div class="text" class>
+                    Dimensions: 92.1 cm * 73 cm  <br> <br>
+                    Medium: Oil on Canvas <br> <br>
+                    School: Post-Impressionism <br> <br>
+                    Location: National Gallery, Londont <br> <br>
+                </div>
+                <br> <br>
+                <div class="subtitle" style="font-size:x-large"> Heat: 99999999000000 <br> </div>
+                <hr>
+                <div class="subtitle" style="font-size:x-large"> Price: 100000000000123 USD </div> <br> <br>
+
+                <br>
+                <a href="Displaypage.html">
+                    <input type="button" class="button2" value="查看详情">
+                </a>
+                <br> <br>
+                <input type="button" class="button1" value="删除" onclick="deleteLine(this)">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img  src="66.jpg" heigh="630" width=400>
+            </td>
+            <td style="text-align: left">
+                <div class="text" class>
+                    Dimensions: 207.6 cm * 308 cm  <br> <br>
+                    Medium: Oil on Canvas <br> <br>
+                    School: Post-Impressionism <br> <br>
+                    Location: Art Instituate of Chicago <br> <br>
+                </div>
+                <br> <br>
+                <div class="subtitle" style="font-size:x-large"> Heat: 0 <br> </div>
+                <hr>
+                <div class="subtitle" style="font-size:x-large"> Price: 5 USD </div> <br> <br>
+
+                <br>
+                <a href="Displaypage.html">
+                    <input type="button" class="button2" value="查看详情">
+                </a>
+                <br> <br>
+                <input type="button" class="button1" value="删除" onclick="deleteLine(this)">
 
             </td>
         </tr>
     </table>
+
+
 </body>
 </html>
